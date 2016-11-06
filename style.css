@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Noticia+Text);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noticia Text', serif;
+  background-color: #463E3E; }
+
+.container {
+  width: 1300px;
+  margin: auto; }
+  .container header {
+    float: left; }
+    .container header img {
+      width: 100%; }
+  .container main {
+    width: 1200px;
+    margin: 25px 50px;
+    padding: 0;
+    float: left; }
+    .container main .left-section, .container main .right-section {
+      float: left;
+      width: 50%; }
+      .container main .left-section div, .container main .right-section div {
+        width: 100%; }
+      .container main .left-section .lrg, .container main .right-section .lrg {
+        height: 600px; }
+      .container main .left-section .sml, .container main .right-section .sml {
+        height: 300px; }
+    .container main .about {
+      width: 1100px;
+      height: 350px;
+      float: left;
+      margin: 40px 50px;
+      background-color: #7d2920;
+      color: #fff; }
+      .container main .about img {
+        width: 350px;
+        height: 350px;
+        float: left; }
+      .container main .about h2, .container main .about hr, .container main .about p {
+        float: right; }
+      .container main .about h2 {
+        text-align: center;
+        font-size: 1.9em;
+        margin: 0 15px 10px;
+        width: 720px; }
+      .container main .about hr {
+        width: 698px;
+        margin: 15px 25px; }
+      .container main .about p {
+        font-size: 1.1em;
+        margin: 10px 25px;
+        width: 700px; }
+      .container main .about a {
+        color: #55f; }
+      .container main .about a:hover {
+        color: #99f; }
+  .container footer {
+    width: 100%;
+    margin: 0;
+    float: left;
+    height: 300px; }
+    .container footer img {
+      width: 1250px;
+      height: 300px;
+      float: left; }
+    .container footer .sociallink {
+      background-color: #000; }
+      .container footer .sociallink .socialgroup {
+        float: left; }
+        .container footer .sociallink .socialgroup div {
+          width: 50px;
+          height: 50px;
+          background-image: url(img/sprite.jpg); }
+    .container footer .facebook {
+      background-position: 20% 0px; }
+    .container footer .facebook:hover {
+      background-position: 20% 100%; }
+    .container footer .twitter {
+      background-position: 0 0px; }
+    .container footer .twitter:hover {
+      background-position: 0 100%; }
+    .container footer .tumblr {
+      background-position: 60% 0px; }
+    .container footer .tumblr:hover {
+      background-position: 60% 100%; }
+    .container footer .instagram {
+      background-position: 80% 0px; }
+    .container footer .instagram:hover {
+      background-position: 80% 100%; }
+    .container footer .youtube {
+      background-position: 40% 0px; }
+    .container footer .youtube:hover {
+      background-position: 40% 100%; }
+    .container footer .email {
+      background-position: 100% 0px; }
+    .container footer .email:hover {
+      background-position: 100% 100%; }
+
+@media only screen and (max-width: 1300px) {
+  .container {
+    width: 100%; }
+    .container main {
+      width: 100%;
+      margin: 25px 0; }
+      .container main .left-section .lrg, .container main .right-section .lrg {
+        height: auto; }
+      .container main .left-section .sml, .container main .right-section .sml {
+        height: auto; }
+      .container main .left-section img, .container main .right-section img {
+        width: 100%;
+        float: left; }
+      .container main .about {
+        width: 100%;
+        margin: 40px 0;
+        height: auto; }
+        .container main .about img {
+          width: 7vw;
+          height: auto;
+          margin: 10px 3% 0 5%;
+          position: relative;
+          float: left; }
+        .container main .about h2 {
+          font-size: 5vw;
+          width: auto;
+          margin: 2vw 2vw 0;
+          float: left; }
+        .container main .about hr {
+          float: left;
+          width: 92%;
+          margin: 10px 4%; }
+        .container main .about p {
+          font-size: 1.1em;
+          margin: 10px 5%;
+          width: 90%;
+          float: left; }
+    .container footer {
+      height: auto; }
+      .container footer img {
+        width: 100%;
+        height: auto; }
+      .container footer .sociallink {
+        float: left;
+        width: 100%;
+        background-color: #000; }
+        .container footer .sociallink .socialgroup {
+          float: none;
+          width: 60vw;
+          margin: auto; }
+          .container footer .sociallink .socialgroup div {
+            background-size: 60vw 20vw;
+            width: 10vw;
+            height: 10vw;
+            float: left; } }
+@media only screen and (max-width: 1300px) {
+  .container main .about p {
+    font-size: .8em; } }
+
+/*# sourceMappingURL=style1.css.map */
